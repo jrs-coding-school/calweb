@@ -1,0 +1,11 @@
+<h1>{{sampleData | date}}</h1>
+<ng-include src="'views/404.html'"></ng-include>
+
+<div ng-repeat="blakeShelton in warBooks | orderBy: '-title'">
+  <h3>{{blakeShelton.title}}</h3>
+  <img ng-src="{{blakeShelton.cover}}" alt="" />
+  <p>
+    {{blakeShelton.description}}
+  </p>
+</div>
+<ng-include src="'views/404.html'"></ng-include>

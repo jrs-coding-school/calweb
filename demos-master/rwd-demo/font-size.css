@@ -1,0 +1,56 @@
+html {
+  font-size: .8em; /* 1em === 16px, .8em === 12.8 */
+}
+h1 span,h2 span, h3 span, p span {
+  padding-left: 10px;
+  color: red;
+}
+
+.h1em {
+  font-size: 2em;
+}
+.h2em {
+  font-size: 1.8em;
+}
+.h3em {
+  font-size: 1.5em;
+}
+.pem {
+  font-size: 1em;
+}
+/* rem */
+.h1rem {
+  font-size: 2rem;
+}
+.h2rem {
+  font-size: 1.8rem;
+}
+.h3rem {
+  font-size: 1.5rem;
+}
+.prem {
+  font-size: 1rem;
+}
+
+/* px */
+.h1px {
+  font-size: 32px;
+}
+.h2px {
+  font-size: 28.8px;
+}
+.h3px {
+  font-size: 24px;
+}
+.ppx {
+  font-size: 16px;
+}
+
+.container {
+  font-size: .8em;
+  border: 5px dotted red;
+}
+
+.smallerDiv {
+  font-size: 2em;
+}

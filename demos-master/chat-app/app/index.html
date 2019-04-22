@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Little ChatDawg</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body ng-app="littlechatdawg">
+  <h1>Little ChatDawg</h1>
+
+
+  <ng-view></ng-view>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+
+  <script src="ang-chat/chat.module.js"></script>
+  <script src="ang-chat/chat.controller.js"></script>
+  <script src="ang-chat/chat.service.js"></script>
+</body>
+</html>

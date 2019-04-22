@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  width: 100%;
+  background-color: #000000;
+}
+nav {
+  width: 42.55555%;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: red;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover {
+  background-color: blue;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  clear: both;
+}
+.container:before, .container:after {
+  content: '';
+  clear: both;
+}
+.cols {
+  vertical-align: top;
+  display: inline-block;
+}
+.col-1 {
+  background-color: red;
+  width: 98%;
+}
+.col-2 {
+  background-color: green;
+  width: 49%;
+}
+.col-4 {
+background-color: yellow;
+  width: 24%;
+}
+.col-8 {
+  background-color: chartreuse;
+  width: 11.7%;
+}

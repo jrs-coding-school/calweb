@@ -1,0 +1,41 @@
+* {
+  background-color: #C0DFD9;
+  h4 {
+    font-size: 2rem;
+  }
+}
+
+.chats {
+  height: 600px;
+  background-color: lavender;
+  overflow-y: auto;
+  .chat {
+    padding-left: 5%;
+    margin-bottom: 2px;
+    width: 100%;
+    border: 1px solid gray;
+  }
+}
+
+
+input[type="text"] {
+  width: 75%;
+  height: 40px;
+  font-size: 2em;
+}
+
+input[type="submit"] {
+  width: 20%;
+  height: 40px;
+  font-size: 2em;
+  margin: 10px;
+  background-color: orange;
+}
+
+ul {
+  li {
+    list-style-type: none;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+}

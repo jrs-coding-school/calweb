@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+section {
+  background-color: yellow;
+  width: 69%;
+}
+aside {
+  background-color: orange;
+  width: 30%;
+}
+header, footer {
+  display: block;
+  width: 100%;
+  background-color: grey;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  display: block;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    padding: 10px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: blue;
+    }
+  }
+
+
+}
+
+.makeGreen {
+  background-color: green;
+}
+section {
+  display: none;
+}
+.active-section {
+  display: inline-block;
+}

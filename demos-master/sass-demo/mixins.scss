@@ -1,0 +1,20 @@
+@mixin borders($type, $color) {
+  border: 5px $type $color;
+}
+@mixin borderRadius($radius: 5px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.boxy {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  @include bordeRadius();
+  @include borders(solid, red);
+}
+.helloEveryone {
+  @include borderRadius(2px);
+  @include borders(dotted, #f5f5f5);
+}

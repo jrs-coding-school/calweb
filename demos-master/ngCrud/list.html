@@ -1,0 +1,9 @@
+<article ng-repeat="post in posts">
+  <h3>{{post.title}}</h3>
+  <h4>- {{post.author}}</h4>
+  <p>
+    {{post.description | limitTo: 255}}
+  </p>
+  <a href="#/post/{{post._id}}">show more</a>
+  <button type="button" ng-click="deletePost(post._id)" name="button">delete post</button>
+</article>

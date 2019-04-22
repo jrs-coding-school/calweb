@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Juan on One</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/html" id="msgTmpl">
+      <div class="message">
+        <span class ="user"><%=userName%>: </span>
+        <span class="messageText"><%=text%></span><span data-index="<%=_id%>" class="delete hidden">X</span>
+      </div>
+    </script>
+    <script type="text/html" id="usrTmpl">
+      <div class = "user"><%=name%></div>
+    </script>
+  </head>
+  <body>
+    <header class="col-md-12">
+      <h1>Juan on <span class="special">One</span></h1>
+    </header>
+    <aside class="col-md-4">
+      <div class="users">
+        <h3>Logged In Users:</h3>
+      </div>
+    </aside>
+    <section class="loginSection col-md-8">
+      <form  class="loginForm">
+        <input type="text" name="username" value="" placeholder = "Username">
+        <input type="password" name="password" value="">
+        <input type="submit" name="register" value="Register">
+        <input type="submit" name="login" value="Login">
+      </form>
+    </section>
+    <section class = "col-md-8 hidden messages">
+
+    </section>
+
+    <section class="chatter-box hidden">
+            <form class="col-md-8">
+        <input type="text" class="form-control" rows="3"></textarea>
+      </form>
+    </section>
+    <button class="logout hidden">Logout</button>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" charset="utf-8"></script>
+  <script src="login.js" charset="utf-8"></script>
+  <script src="edit.js" charset="utf-8"></script>
+  <script src="delete.js" charset="utf-8"></script>
+  <script src="post.js" charset="utf-8"></script>
+  <script src="display.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</html>

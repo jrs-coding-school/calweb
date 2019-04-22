@@ -1,0 +1,18 @@
+body {
+  background-color: orange;
+  transition: all .2s ease-in-out;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 4em;
+  text-shadow: 5px 5px 10px black;
+}
+
+#clock {
+  margin-top: 10%;
+  font-size: 8em;
+  color: white;
+  text-shadow: 5px 5px 10px black;
+}

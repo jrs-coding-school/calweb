@@ -1,0 +1,67 @@
+
+header, footer {
+  width: 100%;
+  background-color: #201C3F;
+  padding: 20px;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+section, aside {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+section {
+  width: 32%;
+}
+aside {
+  width: 14%;
+}
+.clearfix {
+  clear: both;
+}
+
+/* section, aside {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+  width: 32%;
+}
+aside {
+  width: 14%;
+} */
+
+.pictureContainer {
+  width: 85%;
+  margin: 0 auto;
+}
+.pictureContainer img {
+  width: 100px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 8px;
+}

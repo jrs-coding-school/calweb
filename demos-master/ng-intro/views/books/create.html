@@ -1,0 +1,9 @@
+<h1>Create page</h1>
+<input type="text" name="cover" ng-model="newBook.cover" placeholder="cover" value="">
+<input type="text" name="title" ng-model="newBook.title" placeholder="title" value="">
+<input type="text" ng-model="newBook.description" name="description" placeholder="description" value="">
+<button type="button" ng-mouseover="addBook(newBook)" name="button">Add Book</button>
+
+<div ng-repeat="book in localBooks">
+  <h2>{{book.title}}</h2>
+</div>

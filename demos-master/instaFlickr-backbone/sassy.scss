@@ -1,0 +1,195 @@
+// so maybe
+body {
+  background: #F7F7F7;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+a, a:visited {
+  color: #125688;
+  text-decoration: none;
+}
+
+article, div, footer, header, main, nav, section {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.photo {
+  background-color: #fff;
+  border-color: #edeeee;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-bottom: 60px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+.photo header {
+  height: 64px;
+  padding: 14px 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.photo header img {
+  background-color: #fbfbfb;
+  border-radius: 50%;
+  border: 1px solid #cccfd0;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.photo header div {
+
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  line-height: 0;
+  font: inherit;
+  padding: 10px;
+  vertical-align: baseline;
+
+}
+.photo header > a {
+  color: #a5a7aa;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.photo .pContain {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.pContain .like {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 5em;
+  color: #FF0066;
+  transition: all 1.5s ease-in-out;
+}
+.pContain:hover .like {
+  display:block;
+  background-color: rgba(248,248,248,.2);
+}
+.pContain span {
+  display: block;
+  width: 15%;
+  margin: 20% auto;
+}
+.pContain span:hover {
+  cursor: pointer;
+
+}
+.photo .pContain::before {
+  content: '';
+  display: block;
+  padding-bottom: 80%;
+}
+
+	.photo .pContain img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav {
+  font-family: 'lobster', cursive;
+  background-color: white;
+  border-bottom-color: #edeeee;
+  border-bottom-width: 1px;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+nav .topNav {
+  height: 108px;
+  padding: 20px 0;
+}
+.topNav .brand {
+  font-size: 3em;
+}
+.topNav .menuItems {
+  font-family: 'Helvetica', sans-serif;
+  margin-left: 30px;
+  margin-right: -20px;
+}
+.topNav .menuItems a {
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+  .detail {
+    display: block;
+    width: 80%;
+    margin: 0.2em auto;
+    padding: 2%;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    font-family: Helvetica, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  	}
+    .detail h2 {
+      font-size: 3.5em;
+    }
+
+  	.detail img {
+    width: 95%;
+    cursor: pointer;
+    background: #FFF;
+
+  }
+
+  .grow {
+    transform: scale(2);
+  }

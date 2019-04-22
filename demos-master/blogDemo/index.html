@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>my blog yo</title>
+  <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+  <script type="text/html" id="articleTmpl">
+    <article data-id="<%= id %>">
+      <h3><%= title %></h3>
+      <p>
+        <%= content %>
+      </p> - <%= author %>
+      <button class="delete">delete</button>
+    </article>
+  </script>
+  <script type="text/html" id="asideTmpl">
+    <ul>
+      <li>text</li>
+      <li>more stuff</li>
+      <li>more stuff</li>
+      <li>textual</li>
+      <li>yess!!</li>
+    </ul>
+  </script>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a rel="blog" href="">blog</a></li>
+      <li><a rel="about" href="">ABOUT</a></li>
+      <li><a rel="bitters" href="">BITTERS</a></li>
+    </ul>
+  </nav>
+</header>
+  <div class="container">
+    <section class="about">
+      <h1>about page</h1>
+      <p>
+        this is the about text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+    <section class="bitters">
+      <h1>here are your bitters</h1>
+    </section>
+    <section class="blog active-section">
+      <!-- articles go here -->
+    </section>
+    <aside>
+      <form class="">
+        <input type="text" name="title" placeholder="title">
+        <textarea name="content" rows="8" cols="40"></textarea>
+        <input type="text" name="author" placeholder="author">
+        <button type="submit" name="button">add article</button>
+      </form>
+    </aside>
+
+  </div>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="">menu item</a></li>
+        <li><a href="">menu item</a></li>
+        <li><a href="">menu item</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+  <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+
+  <script src="data.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

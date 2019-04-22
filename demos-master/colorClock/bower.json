@@ -1,0 +1,27 @@
+{
+  "name": "colorClock",
+  "version": "0.0.1",
+  "homepage": "https://github.com/TIY-Charleston-Front-End-Oct2015/demos",
+  "authors": [
+    "Nathan Hall <nathan.mh@gmail.com>"
+  ],
+  "description": "change color every second",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.3.3",
+    "chai": "~3.4.1"
+  },
+  "dependencies": {
+    "mocha": "~2.3.3",
+    "chai": "~3.4.1",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}

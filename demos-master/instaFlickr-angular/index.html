@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>instaflickr</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body ng-app="flickrgram">
+    <nav>
+      <div class="topNav">
+        <a href="#/" class="brand">flickrgram</a>
+        <div class="menuItems">
+          <a href="#/likes">My Likes</a>
+          <a href="#/flickr">Photos</a>
+        </div>
+      </div>
+    </nav>
+    <ng-view></ng-view>
+
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+
+<!-- common module -->
+<script src="common/app.module.js" charset="utf-8"></script>
+<script src="common/app.controllers.js" charset="utf-8"></script>
+<script src="common/app.services.js" charset="utf-8"></script>
+<script src="common/flickrPhoto.directive.js" charset="utf-8"></script>
+
+<!-- likes module -->
+<script src="likes/likes.module.js" charset="utf-8"></script>
+<script src="likes/likes.controller.js" charset="utf-8"></script>
+<script src="likes/likes.service.js" charset="utf-8"></script>
+
+<!-- flickr module -->
+<script src="flickr/flickr.module.js" charset="utf-8"></script>
+<script src="flickr/flickr.controller.js" charset="utf-8"></script>
+<script src="flickr/flickr.directive.js" charset="utf-8"></script>
+<script src="flickr/flickr.service.js" charset="utf-8"></script>
+
+  </body>
+</html>

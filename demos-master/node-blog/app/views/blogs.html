@@ -1,0 +1,17 @@
+
+<a href="/#/create-blog">Create new blog</a>
+
+<h1>
+  List of blogs
+</h1>
+
+<input ng-model='name' type="text">
+<button ng-click="getOne(name)">Get One</button>
+
+<div ng-repeat="blog in blogs">
+  <h3>{{blog.title}}</h3>
+  <p>{{blog.blog}}</p>
+  <p>{{blog.author}}</p>
+</div>
+
+

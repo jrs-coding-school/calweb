@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>_.template review</title>
+  <script type="text/html" id="profileTmpl" charset="utf-8">
+    <article class="profile">
+      <img src="<%= photo %>" alt="" />
+      <h3><%= name %></h3>
+      <p><%= bio %></p>
+    </article>
+  </script>
+  <style media="screen">
+    .profile {
+      display: inline-block;
+      width: 27%;
+    }
+    .profile img {
+      border-radius: 100%;
+      max-width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+</div>
+  <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+  <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+
+  <script src="app.js" charset="utf-8"></script>
+
+</body>
+</html>

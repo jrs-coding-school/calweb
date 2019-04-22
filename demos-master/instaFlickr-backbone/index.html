@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FlickrGram</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+    <script type="html/template" id="photoTmpl">
+
+        <header >
+          <img src="http://www.placekitten.com/200/400" alt="" />
+
+          <div class="">
+            <a href="#"><%= title %></a>
+          </div>
+          <a href="#"><%= dtUpload %></a>
+        </header>
+        <div class="pContain">
+            <img src="<%= image %>" alt="" />
+            <div class="like">
+              <span>&#9825;</span>
+            </div>
+        </div>
+        <div class="editing ">
+        <input type="text" value="<%=title%>">
+        </div>
+
+      </script>
+  </head>
+  <body>
+    <nav>
+        <div class="topNav">
+          <a href="#/" class="brand">Flickrgram</a>
+          <div class="menuItems">
+            <a href="#/likes">My Likes</a>
+            <a href="#/photos">Photos</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div id="photos">
+          <form class="">
+            <input type="text" name="url" value="">
+            <input type="text" name="title" value="">
+            <button type="submit" class="showForm" name="button">New Photo</button>
+          </form>
+          <!-- single photo template -->
+
+        </div>
+      </div>
+    <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>

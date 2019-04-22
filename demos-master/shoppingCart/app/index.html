@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-app="myAzon">
+
+<ng-view></ng-view>
+
+  <!-- inject:js -->
+    <script src="app.module.js" charset="utf-8"></script>
+    <script src="app.controller.js" charset="utf-8"></script>
+
+    <!-- products -->
+    <script src="products/products.module.js" charset="utf-8"></script>
+    <script src="products/products.controller.js" charset="utf-8"></script>
+    <script src="products/products.service.js" charset="utf-8"></script>
+
+    <!-- cart -->
+    <script src="cart/cart.module.js" charset="utf-8"></script>
+    <script src="cart/cart.controller.js" charset="utf-8"></script>
+    <script src="cart/cart.service.js" charset="utf-8"></script>
+  <!-- endinject -->
+
+  </body>
+</html>

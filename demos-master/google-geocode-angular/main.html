@@ -1,0 +1,10 @@
+hello world
+<div ng-repeat="spot in spots">
+  {{spot.name}}
+  </div>
+  <mapbox map-id="calweb.n1opce55" scale-to-fit width="100%">
+    <marker ng-repeat="c in spots" lat="{{c.coords.latitude}}" lng="{{c.coords.longitude}}" size="medium" color="#ce832c" icon="commercial">
+   <h3>{{c.name}}</h3>
+
+  </marker>
+  </mapbox>

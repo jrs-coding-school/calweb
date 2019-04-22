@@ -1,0 +1,52 @@
+.message {
+  padding: 20px;
+  border: 1px solid gray;
+  margin: 10px auto; }
+
+.hidden {
+  display: none; }
+
+h1 {
+  text-align: center;
+  background-color: cornflowerblue;
+  height: 107px;
+  border-radius: 5%;
+  padding: 2.7% 0 0 0;
+  color: lightgoldenrodyellow;
+  font-family: fantasy; }
+
+.col-md-8 {
+  width: 80%;
+  float: right;
+  background-color: #f7f7f7;
+  border-radius: 4%; }
+
+.messages {
+  height: 550px;
+  overflow: scroll; }
+
+.col-md-4 {
+  width: 18%;
+  background-color: cornflowerblue;
+  height: 328px;
+  border-radius: 5%;
+  margin-left: 1.5%; }
+
+.special:hover {
+  transition: all 1.9s ease;
+  transform: rotate(360deg); }
+
+.form-control {
+  background-color: #66afe9;
+  height: 70px;
+  font-size: 21px;
+  color: lightgoldenrodyellow; }
+
+.message {
+  padding: 5px;
+  margin: 10px auto;
+  border: none; }
+
+.delete, .user {
+  font-size: 2em;
+  margin: 10px; }

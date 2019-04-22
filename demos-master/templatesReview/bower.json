@@ -1,0 +1,22 @@
+{
+  "name": "templatesReview",
+  "homepage": "https://github.com/TIY-Charleston-Front-End-Oct2015/demos",
+  "authors": [
+    "Calvin Webster <calweb@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}

@@ -1,0 +1,47 @@
+$standardBoxSize: 426px;
+$oceanBlue: darken($carolinaBlue, 30%);
+$pureWhite: #ffffff;
+.clearfix {
+  clear: both;
+  &:before {
+    content: '';
+    clear: both;
+  }
+  &:after {
+    content: '';
+    clear: both;
+  }
+}
+.btn {
+  float:left;
+  @extend .clearfix;
+  background-color: $oceanBlue;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  transition: all .8s ease-in-out;
+  &:hover {
+    background-color: grey;
+  }
+}
+
+a.btn {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.hero {
+  width: 100%;
+}
+.villian {
+  width: $standardBoxSize * 1.1;
+}
+p {
+  @extend .clearfix;
+}
+.danger {
+  @extend .btn;
+  @extend .hero;
+  background-color: red;
+}

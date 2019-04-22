@@ -1,0 +1,31 @@
+// this is a comment
+.hello {
+  font-size: 10em;
+}
+.cols {
+  vertical-align: top;
+  display: inline-block;
+  &.col-4 {
+    width: 24.7%;
+  }
+  &.col-3 {}
+}
+
+.box {
+  &:hover {
+    width: 100px;
+  }
+  width: 600px;
+  height: 500px;
+  transition: all .5s ease-in-out;
+  background-color: $carolinaBlue;
+  p {
+    margin-top: 25%;
+    color: $quiksilverRed;
+
+  }
+  span {
+
+    color: $quiksilverRed;
+  }
+}

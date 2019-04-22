@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      gulp intro
+    </title>
+    <style media="screen">
+
+      .red {
+        color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body ng-app="mahBooks">
+
+    <ng-view></ng-view>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js" charset="utf-8"></script>
+<!-- inject:js -->
+    <script src="vendor/angular/angular.js" charset="utf-8"></script>
+    <script src="vendor/angular-route/angular-route.js" charset="utf-8"></script>
+
+    <script src="app.module.js" charset="utf-8"></script>
+    <script src="books/books.module.js" charset="utf-8"></script>
+    <script src="books/books.controller.js" charset="utf-8"></script>
+    <script src="books/books.service.js" charset="utf-8"></script>
+    <script src="books/books.directive.js" charset="utf-8"></script>
+  <!-- endinject -->
+  </body>
+</html>

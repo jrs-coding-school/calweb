@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  width: 100%;
+  background-color: grey;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 20px;
+}
+nav li:hover {
+  background-color: red;
+}
+nav li > a {
+  color: white;
+
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+}
+.wrapper:before, .wrapper:after {
+  content: '';
+  clear:both;
+}
+.content {
+  padding: 15px;
+}
+
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+section {
+  background-color: yellow;
+  width: 67%;
+}
+aside {
+  background-color: blue;
+  width: 32%;
+}

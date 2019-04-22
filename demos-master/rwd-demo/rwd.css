@@ -1,0 +1,33 @@
+
+@media (max-width: 1020px) {
+  section {
+    background-color: red;
+    width: 49%;
+  }
+  aside {
+    width: 49%;
+  }
+}
+@media (max-width: 700px) {
+  section, aside {
+    width: 100%;
+  }
+  aside img {
+    width: 100%;
+  }
+}
+@media (min-width: 520px) and (max-width: 800px) {
+  /*header, footer {
+    display: none;
+  }*/
+  nav li {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  section, aside {
+    background-color: green;
+  }
+}
